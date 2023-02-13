@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d \( ! -name . -a ! -name .. \) -prune -print | wc -l
+find . -type d \( ! -name . -a ! -name .. \) -print | wc -l
