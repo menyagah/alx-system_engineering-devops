@@ -1,3 +1,2 @@
 #!/bin/bash
 eval $(echo -e "a{a..z}\nb{a..z}\nc{a..z}\nd{a..z}\ne{a..z}\nf{a..z}\ng{a..z}\nh{a..z}\ni{a..z}\nj{a..z}\nk{a..z}\nl{a..z}\nm{a..z}\np{a..z}\nq{a..z}\nr{a..z}\ns{a..z}\nt{a..z}\nu{a..z}\nv{a..z}\nw{a..z}\nx{a..z}\ny{a..z}\nz{a..o} {p..z}{a..z}" | grep -v 'oo' | sort)
-
